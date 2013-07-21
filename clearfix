@@ -1,0 +1,10 @@
+ 
+//Add invisible content after header in order to "clearfix" the divs and contain all appropriate divs within the header.
+
+ .header:after { 
+     content: "hi"; 
+     visibility: hidden; 
+     display: block; 
+     height: 0;
+     clear: both;
+   }

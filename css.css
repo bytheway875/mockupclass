@@ -1,21 +1,115 @@
+
+*{
+  box-sixing:border-box;
+}
+
+/*------------*/
+/*Header*/
+/*------------*/
+
 .header{
 	background-color:aliceblue;
+  border-bottom:5px solid #a8988b;
+  padding: .75em 1em .5em;
 }
 
+.header:after{
+  content: " ";
+  height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+}
+
+  .logo {
+  float:left;
+  }
+
+  nav {
+  float:right;
+  }
+
+/*----------*/
+/*banner*/
+/*----------*/
 .banner{
-	background-color:blanchedalmond;
+  padding:80px 50px;
+  /*color:#fff;*/
 }
 
-.first {
-	background-color:aliceblue;
+  .tagline{
+    font-size:100px;
+  }
+
+  .address {
+    font-size:40px;
+  }
+
+/*-----------*/
+/*about*/
+/*-----------*/
+
+.about{
+  background-color:aliceblue;
 }
 
-.second {
-	background-color:blanchedalmond;
+.about:after {
+content: " ";
+height:0;
+display:block;
+visibility:hidden;
+clear:both;
 
 }
 
-.third {
-	background-color:aliceblue;
+.introtext {
+  float:left;
+  width:50%;
 
+}
+
+
+
+/*-----------*/
+/*hours and directions*/
+/*-----------*/
+.hoursdirections {
+  clear:both;
+  background:#ffffff;
+
+}
+.hoursdirections:after {
+  content: " ";
+  height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+
+}
+
+.map {
+  border: 1px solid yellow;
+  background:yellow;
+  width:200px;
+  height:200px;
+  float:right;
+}
+
+.addressbottom {
+  float:left;
+  font-size: 20px
+}
+
+.hours {
+  float:left;
+  clear:left;
+}
+
+/*------------*/
+/*footer*/
+/*------------*/
+
+.footer nav {
+  clear:both;
+  /*float:right;*/
 }
